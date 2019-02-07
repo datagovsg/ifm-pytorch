@@ -1,0 +1,19 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[dev-packages]
+pytest = "*"
+
+[packages]
+numpy = "*"
+future = "*"
+pathlib = "*"
+sqlitedict = "*"
+"h5py" = "*"
+torch = "==0.4.1"
+sklearn = "*"
+scipy = "*"
+pandas = "*"
+ml-metrics = "*"
